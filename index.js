@@ -13,7 +13,7 @@ app.use(bodyparser.json())
 
 
 app.get('/', function(req,res){
-	res.rend("Hello I am a chatbot")
+	res.send("Hello I am a chatbot")
 })
 
 
